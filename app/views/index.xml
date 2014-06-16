@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		
+		<View id="View_titulo">
+			<View id="View_titulo_sec1">
+				<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+			</View>
+			<Label id="Linea"></Label>
+		</View>
+		<ImageView id="Img_Login" image="/images/Img_Login.png"></ImageView>
+		<Button id="Bt_Login" title="Login" onClick="Change_Window_Login"></Button>
+		
+	</Window>
+</Alloy>

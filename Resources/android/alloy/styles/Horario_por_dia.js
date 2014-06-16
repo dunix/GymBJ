@@ -1,0 +1,1 @@
+module.exports = [{"isClass":true,"priority":10000.0044,"key":"container","style":{layout:"vertical",backgroundColor:"#000000",}},{"isId":true,"priority":100000.0045,"key":"Tabla_Horario_por_dia","style":{width:"100%",height:"70%",}},{"isId":true,"priority":100000.0046,"key":"Lb_DiaSemana","style":{font:{fontSize:48,},}}];

@@ -1,0 +1,39 @@
+<Alloy>
+	<Window id="Win_Main_Menu" class="container">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View class="View_Menu" layout="horizontal">
+			<View layout="vertical" height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Chart.png" onClick="Change_Win_Chart"> </ImageView>
+				<Label >Grafico </Label>
+			</View>
+			<View layout="vertical"height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Routine.png" onClick="Change_Win_Routine"> </ImageView>
+				<Label >Rutina </Label>
+			</View>
+		</View>
+		
+		<View class="View_Menu" layout="horizontal">
+			<View layout="vertical" height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Profile.png" onClick="Change_Win_Profile"> </ImageView>
+				<Label >Perfil </Label>
+			</View>
+			<View layout="vertical"height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Schedule.png" onClick="Change_Win_Schedule"> </ImageView>
+				<Label >Horario </Label>
+			</View>
+		</View>
+
+		
+		<View class="View_Menu" layout="horizontal">
+			<View layout="vertical" height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Diet.png" onClick="Change_Win_Diet"> </ImageView>
+				<Label >Alimentacion </Label>
+			</View>
+			<View layout="vertical"height="50%" width="50%">
+				<ImageView id="Img_Map" image="/images/Icon_Notification.png" onClick="Change_Win_Notification"> </ImageView>
+				<Label >Notificaciones </Label>
+			</View>
+		</View>
+
+	</Window>
+</Alloy>

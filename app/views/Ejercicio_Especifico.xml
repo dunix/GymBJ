@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="Window_Ejercicio_Especifico" class="container">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="View_titulo" >
+			<View id="View_titulo_sec1" >
+				<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+			</View>
+			<Label id="Linea"></Label>
+		</View>
+		<View id="view_Nombre" >
+			<Label id="Lbl_NombreEjercicio" text="Nombre"></Label>
+			<Button id="Bt_Compartir" title="Compartir" onClick="publicar"></Button>
+		</View>
+		<Label id="Lbl_Titulo_DescripcionEjer" text="Descripciòn del ejercicio:"></Label>
+		<TextArea id="Lbl_DescripcionEjer" ></TextArea>
+		<View id="View_DatosEjercicio">
+			<View id="View_Datos1"> 
+				<Label id="Lbl_Serie"></Label>
+				<Label id="Lbl_Repetecion"></Label>
+				<Label id="Lbl_Peso"></Label>
+			</View>
+			<View id="View_Datos2" > 
+				<Label id="Lbl_Descanso" ></Label>
+				<Label id="Lbl_Duracion" ></Label>
+			</View>
+		</View>
+		<Button id="Bt_Video">Ver video del Ejercicio</Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="View_titulo">
+			<View id="View_titulo_sec1">
+				<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+			</View>
+			<Label id="Linea"></Label>
+		</View>
+		<Label text="Programa de ejercicios:" id="Lbl_Rutina"></Label>
+		<TableView id="TV_Rutina"></TableView>
+	</Window> 
+</Alloy>

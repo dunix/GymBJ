@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="Window_Map"class="Window_MapClass">
+		<Label id="Lbl_Ubicacion" >Ubicación: </Label>
+	</View>
+</Alloy>

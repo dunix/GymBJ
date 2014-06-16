@@ -1,0 +1,16 @@
+
+".Window_MapClass":{
+	width:"98%",
+	height:"90%",
+	layout:"vertical"
+
+},
+
+"#Lbl_Ubicacion":{
+	width:"50%",
+	height: "6%",
+	left:"0%",
+	color: "white",
+	font:{fontSize:20}
+	
+}

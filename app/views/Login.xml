@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container">
+		<View id="View_titulo">
+				<View id="View_titulo_sec1">
+					<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+				</View>
+				<Label id="Linea"></Label>
+			</View>
+		<View id="View_Usuario" layout="vertical">
+			<Label id="Lb_Usuario">Usuario</Label>
+			<TextField id="Tf_Usuario"></TextField>
+		</View>
+		<View id="View_Contrasena" layout="vertical">
+			<Label id="Lb_Contrasena">Contraseña</Label>
+			<TextField id="Tf_Contrasena"></TextField>
+		</View>
+		<Button id="Bt_Logear" title="Login" onClick="Change_Win_Main"></Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="Login">
+		<Label>Bienvenido a la segunda Ventana</Label>
+		<Label>Bienvenido a la segunda Ventana222</Label>
+		<LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
+	</Window>
+</Alloy>

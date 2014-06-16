@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="Horario_por_dia"class="container">
+		<Label id="Lb_DiaSemana" top= "10%">
+		</Label>
+		<TableView id="Table_Horario_por_dia" top= "20%" borderRadius = 10>
+		</TableView>
+	</Window>
+</Alloy>

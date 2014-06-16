@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Chart</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="Chart.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div>
+	<canvas id="myChart"> </canvas>
+</div>
+<script>
+Ti.App.addEventListener('renderChart', function(options) {
+	Ti.API.info('rendering chart');
+
+	var canvas = document.getElementById('myChart');
+	canvas.width = 500;
+	canvas.height = 280;
+	
+	var data = {
+	labels : [ " Pecho","  Espalda","  Bicep Der","  Bicep Izq","  Bicep Der","  Cintura","  Cadera", "  I.Masa Corporal", "  Muslo Der", "  Muslo Izq","  Peso"],
+	datasets : [
+		{
+			fillColor : "rgba(220,220,220,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+			data : options.newM
+		},
+		{
+			fillColor : "rgba(151,187,205,0.5)",
+			strokeColor : "rgba(151,187,205,1)",
+			data : options.oldM
+		}
+	]
+}
+Ti.API.info(options);
+
+	var ctx = new Chart( document.getElementById("myChart").getContext("2d")).Bar(data);
+	//new Chart(ctx).Line(data,options);
+	//Ti.API.info(ctx);
+});
+</script>
+</body>
+</html>

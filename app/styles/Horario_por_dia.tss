@@ -1,0 +1,14 @@
+
+".container" : {
+  layout:"vertical",
+  backgroundColor:"#000000"
+}
+,
+
+"#Tabla_Horario_por_dia":{
+		width:"100%",
+		height:"70%"
+},
+"#Lb_DiaSemana":{
+	  	font:{fontSize:48}
+}

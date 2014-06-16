@@ -1,0 +1,1 @@
+module.exports = [{"isClass":true,"priority":10000.0139,"key":"Login","style":{layout:"vertical",}}];

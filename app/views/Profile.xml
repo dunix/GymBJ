@@ -1,0 +1,43 @@
+<Alloy>
+	<Window id="Win_Profile"class="container" layout="vertical">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="View_titulo">
+			<View id="View_titulo_sec1">
+				<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+			</View>
+			<Label id="Linea"></Label>
+		</View>
+		<View id="View_Top">
+			
+				<View id="View_Photo_User" >
+						<ImageView id="Img_User"></ImageView>
+				</View>
+				<View id="View_Info_User">
+						<Label id="Lb_Name_User">Nombre:</Label>
+						<Label id="Lb_Phone" text="Teléfono:"></Label>
+						<Label id="Lb_Phone_User"></Label>
+						<Label id="Lb_Ocupacion" text="Ocupación:"></Label>
+						<Label id="Lb_Ocupacion_User"></Label>
+						<Label id="Lb_Email" text="Email:"></Label>
+						<Label id="Lb_Email_User" text="les9217@gmail.com"></Label>
+				</View>
+			
+		</View>
+		<View id="View_Edit_Info">
+			<Label id="Lb_Title_Edit" text="Editar Información"></Label>
+			<View id="View_Edit_Phone">
+				<Label id="Lb_Edit_Phone" text="Teléfono"></Label>
+				<TextField id="Tf_New_Phone_User"></TextField>
+			</View>
+			<View id="View_Edit_Email">
+				<Label id="Lb_Edit_Email" text="Email"></Label>
+				<TextField id="Tf_New_Email_User"></TextField>
+			</View>
+			<View id="View_Edit_Ocupacion">
+				<Label id="Lb_Edit_Ocupacion" text="Ocupación"></Label>
+				<TextField id="Tf_New_Ocupacion_User"></TextField>
+			</View>
+		</View>
+		<Button id="Bt_Save_Change" title="Guardar Cambios" onClick="Update"></Button>
+	</Window>
+</Alloy>

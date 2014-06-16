@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="Win" class="container">
+		<View layout="vertical">
+		  <Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar"/>
+		  <Require type="widget" src="com.mcongrove.slideMenu" id="SlideMenu" />
+		</View>
+		   <View id="AppWrapper" layout="vertical"top="46dp">
+            <!-- Content Goes Here -->
+            <View id="View_titulo">
+				
+				<View id="View_titulo_sec1">
+				<Label id="Lb_Name_Gym" >Gimnasio B.J. </Label>
+				</View>
+				<Label id="Linea"></Label>
+			</View>
+			<View id="View_Resultado">
+				
+			</View>
+       	</View>
+	</Window>
+</Alloy>

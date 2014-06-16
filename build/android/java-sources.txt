@@ -1,0 +1,7 @@
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/ApplicationStylesheet.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/AssetCryptImpl.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/GymbjActivity.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/GymbjAppInfo.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/GymbjApplication.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/Manifest.java"
+"C:/Users/Braulio Josue/Desktop/Saiya Gym/build/android/gen/com/example/SaiyaGym/R.java"

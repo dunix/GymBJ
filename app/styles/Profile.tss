@@ -1,0 +1,178 @@
+".container": {
+	backgroundColor:"#000000",
+	layout:"vertical"
+},
+"#Lb_Name_Gym":{
+	width:"50%",
+	height: "100%",
+	color: "#888888",
+	font:{fontSize:25}
+	
+},
+"#Linea":{
+	width:"100%",
+	height: "5%",
+	backgroundColor: '#35ABFF',
+},
+
+"#View_titulo":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%"
+	//top:20;
+},
+
+"#View_titulo_sec1":{
+	layout:"horizontal",
+	width:"100%",
+	height:"80%"
+},
+"#View_Top":{
+	layout:"horizontal",
+	width:"100%",
+	height:"45%"
+},
+"#View_Photo_User":{
+	layout:"vertical",
+	width:"40%",
+	height:"100%"
+},
+
+"#View_Info_User":{
+	layout:"vertical",
+	width:"55%",
+	height:"100%",
+	left:"5%"
+},
+
+"#Img_User":{
+	layout:"vertical",
+	width:"100%",
+	height:"70%",
+	borderRadius:20
+},
+"#Bt_Take_Photo":{
+	layout:"vertical",
+	width:"70%",
+	height:"15%",
+	top:"5%",
+	left:"15%",
+	right:"15%",
+	borderRadius:20,
+	font:{fontSize:10}
+},
+"#Lb_Name_User":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:20},
+},
+"#Lb_Phone":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:20},
+},
+"#Lb_Phone_User":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:15},
+},
+"#Lb_Ocupacion_User":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:15},
+},
+"#Lb_Ocupacion":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:20}
+},
+
+"#Lb_Email":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:20},
+},
+"#Lb_Email_User":{
+	layout:"vertical",
+	width:"100%",
+	height:"15%",
+	font:{fontSize:15},
+},
+
+"#View_Edit_Info":{
+	layout:"vertical",
+	height:"25%",
+	width:"100%"
+},
+"#Lb_Title_Edit":{
+	height:"15%",
+	width:"100%",
+	font:{fontSize:15}
+},
+"#View_Edit_Phone":{
+	layout:"horizontal",
+	height:"25%",
+	width:"100%"
+},
+"#View_Edit_Email":{
+	layout:"horizontal",
+	height:"25%",
+	width:"100%"
+},
+"#View_Edit_Ocupacion":{
+	layout:"horizontal",
+	height:"25%",
+	width:"100%",
+	font:{fontSize:15}
+},
+"#Lb_Edit_Phone":{
+	height:"100%",
+	width:"25%",
+	left:"5%",
+	font:{fontSize:15}
+},
+"#Tf_New_Phone_User":{
+	height:"100%",
+	width:"60%",
+	left:"5%",
+	right:"5%"
+},
+"#Lb_Edit_Email":{
+	height:"100%",
+	width:"25%",
+	left:"5%",
+	font:{fontSize:15}
+},
+"#Tf_New_Email_User":{
+	height:"100%",
+	width:"60%",
+	left:"5%",
+	right:"5%"
+},
+"#Lb_Edit_Ocupacion":{
+	height:"100%",
+	width:"25%",
+	left:"5%",
+	font:{fontSize:15}
+},
+"#Tf_New_Ocupacion_User":{
+	height:"100%",
+	width:"60%",
+	left:"5%",
+	right:"5%"
+}
+"#Bt_Save_Change":{
+	height:"10%",
+	width:"50%",
+	bottom:"5%",
+	left:"25%",
+	right:"25%",
+	borderRadius:20
+}
+

@@ -1,0 +1,10 @@
+".container" : {
+  layout:"vertical",
+  backgroundColor:"#000000"
+},
+
+".View_Menu":{
+	layout:"horizontal",
+	height:"30%",
+	width:"100%"
+}

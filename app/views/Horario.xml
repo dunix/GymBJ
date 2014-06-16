@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="Horario" class="container">
+		<View id="View_Horario_Titulo"> 
+			<Label id="Lbl_Horario" >Horario de las clases: </Label>
+			<ActivityIndicator id="activityIndicator" message="Loading..."/>
+		</View>
+		
+	</View>
+</Alloy>

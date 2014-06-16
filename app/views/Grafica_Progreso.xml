@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="Win_Grafica_Progreso" class="container">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<Label id="Lb_Title">Gráfica de Progreso</Label>
+		<View id="View_Grafica_Progreso">
+		</View>
+		<Button id="Bt_Graficar" onClick="Generar_Grafica" title="Graficar"></Button>
+	</Window>
+</Alloy>

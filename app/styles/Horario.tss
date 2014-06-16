@@ -1,0 +1,27 @@
+".container": {
+	layout:"vertical",
+	backgroundColor:"black"
+},
+
+"#Lbl_Horario":{
+	width:"50%",
+	height: "90%",
+	left:"0%",
+	color: "white",
+	font:{fontSize:25}
+},
+
+"#activityIndicator":{
+  color: 'white',
+  font: {fontFamily:'Helvetica Neue', fontSize:20, fontWeight:'bold'},
+  message: 'Loading...',
+  left:"3%",
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE
+},
+"#View_Horario_Titulo":{
+	layout:"horizontal",
+	width:"100%",
+	height:"30%"
+
+}

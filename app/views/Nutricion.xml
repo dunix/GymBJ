@@ -1,0 +1,21 @@
+<Alloy>
+	<Window  id="ContainerNutri" class="container">
+		
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<View id="View_NutriConsulta">
+			<Label id="LabelNutricion"> Nutrición</Label>
+			<Label id="LabelNutriConsulta"> Consulta Alimento </Label>
+			<TextField id="textFieldAlimento"/>
+			<View id="View_Busqueda">
+				<Button id="buttonBuscar" onClick="obtenerInfo" title="Buscar" />
+				<ActivityIndicator id="activityIndicator" message="Loading" />
+			</View>
+			
+		</View>	
+			
+		<View id="View_Resultados">
+			<Label id="LabelResultados" left="5%"> Resultados </Label>
+			<ListView id="list_Resultados" visible="false" >				
+		</View>					
+	</Window>
+</Alloy>

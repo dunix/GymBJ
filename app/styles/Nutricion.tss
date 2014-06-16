@@ -1,0 +1,78 @@
+
+".container" : {
+  	backgroundColor:"#000000",
+  	layout:"vertical"
+},
+
+"#View_NutriConsulta": {
+	layout:"vertical",
+	width:"100%",
+	height: "40%"
+},
+
+"#View_Resultados": {
+	layout:"vertical",
+	width:"100%",
+	height: "60%"
+},
+"#View_Busqueda": {
+	layout:"horizontal",
+	width:"100%",
+	height: "24%",
+	top:"1%"
+},
+
+"#LabelNutriConsulta": {
+	width:"95%",
+	left: "5%",
+	height: "24%",
+	color: "white", // black
+	font:{fontSize:25}
+},
+
+"#LabelNutricion": {
+	width:"100%",
+	left: "5%",
+	height: "24%",
+	top:"1%",
+	color: "white", // black
+	top : 10,
+	font:{fontSize:25}
+},
+"#LabelResultados": {
+	width:"100%",
+	height: "60",
+	color: "white", // black
+
+	font:{fontSize:25}
+} ,
+"#textFieldAlimento": {
+	borderColor:"#424242",
+	left:"4%",
+	width:"80%",
+	top:"1%",
+	height:"24%"
+	
+},
+"#buttonBuscar": {
+	
+	width: "55%",
+	height: "90%",
+	left: "5%",
+	backgroundColor:"#424242"
+}, 
+"#list_Resultados": {
+	
+	width:"90%",
+	color: "#000", // black
+	font:{fontSize:10},
+	backgroundColor:"#black"	
+},
+
+"#activityIndicator": {
+  color: 'white',
+  left:"5%",
+  font: {fontFamily:'Helvetica Neue', fontSize:20, fontWeight:'bold'}
+  
+}
+

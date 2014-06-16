@@ -1,0 +1,522 @@
+Logfile initialized
+[INFO] logfile = C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build.log
+[DEBUG] C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\builder.py install GymBJ C:\Users\prueba\android-sdk C:\Users\prueba\Documents\moviles\app v2\Saiya Gym com.example.SaiyaGym 3
+[INFO] plugin=C:\Users\prueba\AppData\Roaming\Titanium\plugins\ti.alloy\1.0\plugin.py
+[INFO] Detected compiler plugin: ti.alloy/1.0
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.024000 seconds on emulator to get ready
+[DEBUG] com.example.SaiyaGym installed? False
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\backbone.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\backbone.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\CFG.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\CFG.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\constants.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\constants.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\BaseController.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\BaseController.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Ejercicio_Especifico.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Ejercicio_Especifico.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Grafica_Progreso.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Grafica_Progreso.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Horario.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Horario.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Horario_por_dia.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Horario_por_dia.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\index.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\index.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Informacion.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Informacion.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\ListHorario.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\ListHorario.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Login.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Login.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Main.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Main.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Main_Menu.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Main_Menu.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Map.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Map.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Notification.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Notification.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Nutricion.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Nutricion.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Profile.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Profile.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Routine.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Routine.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\controllers\Window_Login.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\controllers\Window_Login.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Ejercicio_Especifico.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Ejercicio_Especifico.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Grafica_Progreso.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Grafica_Progreso.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Horario.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Horario.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Horario_por_dia.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Horario_por_dia.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\index.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\index.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Informacion.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Informacion.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\ListHorario.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\ListHorario.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Login.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Login.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Main.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Main.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Main_Menu.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Main_Menu.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Map.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Map.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Notification.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Notification.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Nutricion.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Nutricion.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Profile.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Profile.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Routine.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Routine.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\styles\Window_Login.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\styles\Window_Login.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\sync\localStorage.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\sync\localStorage.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\sync\properties.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\sync\properties.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\sync\sql.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\sync\sql.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\underscore.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\underscore.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\com.mcongrove.navigationBar\controllers\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\com.mcongrove.navigationBar\controllers\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\com.mcongrove.navigationBar\styles\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\com.mcongrove.navigationBar\styles\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\com.mcongrove.slideMenu\controllers\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\com.mcongrove.slideMenu\controllers\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\com.mcongrove.slideMenu\styles\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\com.mcongrove.slideMenu\styles\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\ytPlayer\controllers\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\ytPlayer\controllers\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\ytPlayer\controllers\window.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\ytPlayer\controllers\window.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\ytPlayer\styles\widget.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\ytPlayer\styles\widget.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy\widgets\ytPlayer\styles\window.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy\widgets\ytPlayer\styles\window.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\alloy.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\alloy.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\Chart.js => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\Chart.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\action.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\action.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\action@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\action@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\back.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\back.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\back@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\back@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\menu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\menu.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\menu@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\menu@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\next.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\next@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\next@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\settings.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\settings.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\black\com.mcongrove.navigationBar\settings@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\black\com.mcongrove.navigationBar\settings@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\action.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\action.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\action@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\action@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\back.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\back.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\back@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\back@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\menu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\menu.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\menu@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\menu@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\next.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\next@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\next@2x.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\settings.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\settings.png
+[TRACE] COPYING MODIFIED FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\white\com.mcongrove.navigationBar\settings@2x.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\images\white\com.mcongrove.navigationBar\settings@2x.png
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Chart.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_chart_8d2da44f23.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Diet.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_diet_e286ecb201.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Gym.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_gym_b54728d0f6.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Home.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_home_e9bf0f4e31.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Horario.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_horario_5472188220.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Info.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_info_b44f0b7baf.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Map.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_map_d1170cd033.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Notification.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_notification_2e39f4fbc7.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Profile.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_profile_f9252b7e73.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Routine.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_routine_34e3328d4b.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_Schedule.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_schedule_69fa45bd74.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\Icon_SlideMenu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\icon_slidemenu_c6d7ab716d.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-hdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-hdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Chart.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_chart_8d2da44f23.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Diet.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_diet_e286ecb201.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Gym.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_gym_b54728d0f6.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Home.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_home_e9bf0f4e31.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Horario.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_horario_5472188220.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Info.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_info_b44f0b7baf.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Map.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_map_d1170cd033.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Notification.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_notification_2e39f4fbc7.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Profile.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_profile_f9252b7e73.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Routine.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_routine_34e3328d4b.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_Schedule.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_schedule_69fa45bd74.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\Icon_SlideMenu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\icon_slidemenu_c6d7ab716d.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-ldpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-ldpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-hdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-hdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-hdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-hdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-hdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-hdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-ldpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-ldpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-ldpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-ldpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-ldpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-ldpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-hdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-hdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-hdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-hdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-hdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-hdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-ldpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-ldpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-ldpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-ldpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-ldpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-ldpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Chart.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_chart_8d2da44f23.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Diet.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_diet_e286ecb201.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Gym.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_gym_b54728d0f6.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Home.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_home_e9bf0f4e31.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Horario.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_horario_5472188220.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Info.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_info_b44f0b7baf.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Map.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_map_d1170cd033.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Notification.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_notification_2e39f4fbc7.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Profile.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_profile_f9252b7e73.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Routine.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_routine_34e3328d4b.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_Schedule.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_schedule_69fa45bd74.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\Icon_SlideMenu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\icon_slidemenu_c6d7ab716d.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-mdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-mdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-hdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-hdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-hdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-hdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-hdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-hdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-ldpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-ldpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-ldpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-ldpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-ldpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-ldpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-mdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-mdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-mdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-mdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-mdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-mdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-hdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-hdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-hdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-hdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-hdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-hdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-ldpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-ldpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-ldpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-ldpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-ldpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-ldpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-mdpi\Img_Login.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-mdpi\img_login_72be8a1630.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-mdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-mdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-mdpi\Wallpaper.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-mdpi\wallpaper_5ecfa6b501.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Chart.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_chart_8d2da44f23.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Diet.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_diet_e286ecb201.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Gym.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_gym_b54728d0f6.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Home.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_home_e9bf0f4e31.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Horario.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_horario_5472188220.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Info.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_info_b44f0b7baf.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Map.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_map_d1170cd033.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Notification.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_notification_2e39f4fbc7.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Profile.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_profile_f9252b7e73.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Routine.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_routine_34e3328d4b.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_Schedule.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_schedule_69fa45bd74.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\Icon_SlideMenu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\icon_slidemenu_c6d7ab716d.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xhdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xhdpi\next_abb5ca9ed1.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Chart.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_chart_8d2da44f23.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Diet.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_diet_e286ecb201.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Gym.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_gym_b54728d0f6.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Home.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_home_e9bf0f4e31.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Horario.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_horario_5472188220.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Info.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_info_b44f0b7baf.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Map.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_map_d1170cd033.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Notification.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_notification_2e39f4fbc7.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Profile.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_profile_f9252b7e73.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Routine.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_routine_34e3328d4b.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_Schedule.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_schedule_69fa45bd74.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\Icon_SlideMenu.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\icon_slidemenu_c6d7ab716d.png
+[TRACE] COPYING FILE: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-xxhdpi\next.png => C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-xxhdpi\next_abb5ca9ed1.png
+[INFO] Copying platform-specific files for 'Facebook' module
+[DEBUG] copying app icon: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-hdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-hdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-ldpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-land-ldpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-hdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-hdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-ldpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-long-port-ldpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-hdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-hdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-ldpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-ldpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-mdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-land-mdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-hdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-hdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-ldpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-ldpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-mdpi\default.png
+[DEBUG] copying C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\Resources\android\images\res-notlong-port-mdpi\default.png splash screen to C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG] found splash screen at C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\assets\Resources\default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\gen\com\example\SaiyaGym\GymbjActivity.java to javac build list
+[DEBUG] adding C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\gen\com\example\SaiyaGym\GymbjAppInfo.java to javac build list
+[DEBUG] adding C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\gen\com\example\SaiyaGym\GymbjApplication.java to javac build list
+[DEBUG] adding C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\gen\com\example\SaiyaGym\Manifest.java to javac build list
+[DEBUG] adding C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\gen\com\example\SaiyaGym\R.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\prueba\\Documents\\moviles\\app v2\\Saiya Gym\\build\\android\\gen\\com\\example\\SaiyaGym\\GymbjActivity.java" "C:\\Users\\prueba\\Documents\\moviles\\app v2\\Saiya Gym\\build\\android\\gen\\com\\example\\SaiyaGym\\GymbjAppInfo.java" "C:\\Users\\prueba\\Documents\\moviles\\app v2\\Saiya Gym\\build\\android\\gen\\com\\example\\SaiyaGym\\GymbjApplication.java" "C:\\Users\\prueba\\Documents\\moviles\\app v2\\Saiya Gym\\build\\android\\gen\\com\\example\\SaiyaGym\\Manifest.java" "C:\\Users\\prueba\\Documents\\moviles\\app v2\\Saiya Gym\\build\\android\\gen\\com\\example\\SaiyaGym\\R.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\build\android\bin\app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/BaseController.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Ejercicio_Especifico.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Grafica_Progreso.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Horario.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Horario_por_dia.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Informacion.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/ListHorario.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Login.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Main.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Main_Menu.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Map.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Notification.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Nutricion.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Profile.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Routine.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/Window_Login.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/platform.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Ejercicio_Especifico.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Grafica_Progreso.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Horario.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Horario_por_dia.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Informacion.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/ListHorario.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Login.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Main.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Main_Menu.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Map.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Notification.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Nutricion.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Profile.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Routine.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/Window_Login.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/platform.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/localStorage.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/properties.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/sql.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/com.mcongrove.navigationBar/controllers/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/com.mcongrove.navigationBar/styles/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/com.mcongrove.slideMenu/controllers/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/com.mcongrove.slideMenu/styles/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/ytPlayer/controllers/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/ytPlayer/controllers/window.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/ytPlayer/styles/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/ytPlayer/styles/window.js
+[DEBUG] from resource zip => assets/Resources/alloy/CFG.js
+[DEBUG] from resource zip => assets/Resources/alloy/backbone.js
+[DEBUG] from resource zip => assets/Resources/alloy/constants.js
+[DEBUG] from resource zip => assets/Resources/alloy/underscore.js
+[DEBUG] from resource zip => assets/Resources/alloy/widget.js
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/action.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/action@2x.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/back.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/back@2x.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/menu.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/menu@2x.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/next.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/next@2x.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/settings.png
+[DEBUG] from resource zip => assets/Resources/images/black/com.mcongrove.navigationBar/settings@2x.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/action.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/action@2x.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/back.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/back@2x.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/menu.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/menu@2x.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/next.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/next@2x.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/settings.png
+[DEBUG] from resource zip => assets/Resources/images/white/com.mcongrove.navigationBar/settings@2x.png
+[DEBUG] from resource zip => assets/Resources/Chart.js
+[DEBUG] from resource zip => assets/Resources/Icon_Gym.png
+[DEBUG] from resource zip => assets/Resources/Img_Login.png
+[DEBUG] from resource zip => assets/Resources/MarketplaceArtwork.png
+[DEBUG] from resource zip => assets/Resources/Wallpaper.png
+[DEBUG] from resource zip => assets/Resources/alloy.js
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/chart.html
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/ti.cloud.js
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/com_facebook_button_check.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_button_check_off.png
+[DEBUG] from resource zip => res/drawable/com_facebook_button_check_on.png
+[DEBUG] from resource zip => res/drawable/com_facebook_button_grey_focused.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_button_grey_normal.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_button_grey_pressed.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_close.png
+[DEBUG] from resource zip => res/drawable/com_facebook_icon.png
+[DEBUG] from resource zip => res/drawable/com_facebook_list_divider.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_list_section_header_background.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_loginbutton_blue.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_loginbutton_blue_focused.png
+[DEBUG] from resource zip => res/drawable/com_facebook_loginbutton_blue_normal.png
+[DEBUG] from resource zip => res/drawable/com_facebook_loginbutton_blue_pressed.png
+[DEBUG] from resource zip => res/drawable/com_facebook_loginbutton_silver.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_logo.png
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_item_background.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_focused.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_longpressed.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_pressed.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_selector.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_selector_background_transition.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_list_selector_disabled.9.png
+[DEBUG] from resource zip => res/drawable/com_facebook_picker_top_button.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_place_default_icon.png
+[DEBUG] from resource zip => res/drawable/com_facebook_profile_default_icon.png
+[DEBUG] from resource zip => res/drawable/com_facebook_profile_picture_blank_portrait.png
+[DEBUG] from resource zip => res/drawable/com_facebook_profile_picture_blank_square.png
+[DEBUG] from resource zip => res/drawable/com_facebook_top_background.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_top_button.xml
+[DEBUG] from resource zip => res/drawable/com_facebook_usersettingsfragment_background_gradient.xml
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_login.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_login_down.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_login_wide.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_login_wide_down.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_logout.png
+[DEBUG] from resource zip => res/drawable/titanium_facebook_logout_down.png
+[DEBUG] from resource zip => res/layout/com_facebook_friendpickerfragment.xml
+[DEBUG] from resource zip => res/layout/com_facebook_login_activity_layout.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_activity_circle_row.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_checkbox.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_image.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_list_row.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_list_section_header.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_search_box.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_title_bar.xml
+[DEBUG] from resource zip => res/layout/com_facebook_picker_title_bar_stub.xml
+[DEBUG] from resource zip => res/layout/com_facebook_placepickerfragment.xml
+[DEBUG] from resource zip => res/layout/com_facebook_placepickerfragment_list_row.xml
+[DEBUG] from resource zip => res/layout/com_facebook_usersettingsfragment.xml
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_close.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_icon.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_loginbutton_blue_focused.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_loginbutton_blue_normal.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_loginbutton_blue_pressed.png
+[DEBUG] from resource zip => res/drawable-hdpi/com_facebook_logo.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_chart_8d2da44f23.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_diet_e286ecb201.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_gym_b54728d0f6.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_home_e9bf0f4e31.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_horario_5472188220.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_info_b44f0b7baf.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_map_d1170cd033.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_notification_2e39f4fbc7.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_profile_f9252b7e73.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_routine_34e3328d4b.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_schedule_69fa45bd74.png
+[DEBUG] from resource zip => res/drawable-hdpi/icon_slidemenu_c6d7ab716d.png
+[DEBUG] from resource zip => res/drawable-hdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-ldpi/com_facebook_close.png
+[DEBUG] from resource zip => res/drawable-ldpi/com_facebook_icon.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_chart_8d2da44f23.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_diet_e286ecb201.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_gym_b54728d0f6.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_home_e9bf0f4e31.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_horario_5472188220.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_info_b44f0b7baf.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_map_d1170cd033.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_notification_2e39f4fbc7.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_profile_f9252b7e73.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_routine_34e3328d4b.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_schedule_69fa45bd74.png
+[DEBUG] from resource zip => res/drawable-ldpi/icon_slidemenu_c6d7ab716d.png
+[DEBUG] from resource zip => res/drawable-ldpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_chart_8d2da44f23.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_diet_e286ecb201.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_gym_b54728d0f6.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_home_e9bf0f4e31.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_horario_5472188220.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_info_b44f0b7baf.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_map_d1170cd033.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_notification_2e39f4fbc7.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_profile_f9252b7e73.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_routine_34e3328d4b.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_schedule_69fa45bd74.png
+[DEBUG] from resource zip => res/drawable-mdpi/icon_slidemenu_c6d7ab716d.png
+[DEBUG] from resource zip => res/drawable-mdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_close.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_loginbutton_blue_focused.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_loginbutton_blue_normal.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_loginbutton_blue_pressed.png
+[DEBUG] from resource zip => res/drawable-xhdpi/com_facebook_logo.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_chart_8d2da44f23.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_diet_e286ecb201.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_gym_b54728d0f6.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_home_e9bf0f4e31.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_horario_5472188220.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_info_b44f0b7baf.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_map_d1170cd033.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_notification_2e39f4fbc7.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_profile_f9252b7e73.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_routine_34e3328d4b.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_schedule_69fa45bd74.png
+[DEBUG] from resource zip => res/drawable-xhdpi/icon_slidemenu_c6d7ab716d.png
+[DEBUG] from resource zip => res/drawable-xhdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_chart_8d2da44f23.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_diet_e286ecb201.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_gym_b54728d0f6.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_home_e9bf0f4e31.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_horario_5472188220.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_info_b44f0b7baf.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_map_d1170cd033.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_notification_2e39f4fbc7.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_profile_f9252b7e73.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_routine_34e3328d4b.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_schedule_69fa45bd74.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/icon_slidemenu_c6d7ab716d.png
+[DEBUG] from resource zip => res/drawable-xxhdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/wallpaper_5ecfa6b501.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/img_login_72be8a1630.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/next_abb5ca9ed1.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/wallpaper_5ecfa6b501.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR C:\Users\prueba\AppData\Roaming\Titanium\mobilesdk\win32\3.2.3.GA\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\facebook\3.0.2\libs\armeabi\libfacebook.so
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\facebook\3.0.2\libs\armeabi-v7a\libfacebook.so
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\facebook\3.0.2\libs\x86\libfacebook.so
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\ti.map\2.1.4\libs\armeabi\libti.map.so
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\ti.map\2.1.4\libs\armeabi-v7a\libti.map.so
+[DEBUG] installing native lib: C:\Users\prueba\AppData\Roaming\Titanium\modules\android\ti.map\2.1.4\libs\x86\libti.map.so
+[DEBUG] installing native lib: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\modules\android\titutorial.youtubeplayer\0.1\libs\armeabi\libtitutorial.youtubeplayer.so
+[DEBUG] installing native lib: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\modules\android\titutorial.youtubeplayer\0.1\libs\armeabi-v7a\libtitutorial.youtubeplayer.so
+[DEBUG] installing native lib: C:\Users\prueba\Documents\moviles\app v2\Saiya Gym\modules\android\titutorial.youtubeplayer\0.1\libs\x86\libtitutorial.youtubeplayer.so
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.032000 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen

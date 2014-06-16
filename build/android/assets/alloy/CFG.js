@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"com.mcongrove.slideMenu":"1.1","com.mcongrove.navigationBar":"1.1","ytPlayer":"1.0"}};

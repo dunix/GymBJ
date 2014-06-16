@@ -1,0 +1,6 @@
+<Alloy>
+	<View class="container">
+		<Label id="Lbl_Informacion" >Informacion general: </Label>
+		<Label id="Lbl_Informacion_text"></Label>
+	</View>
+</Alloy>

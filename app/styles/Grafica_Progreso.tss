@@ -1,0 +1,31 @@
+".container" : {
+  layout:"vertical",
+  backgroundColor:"black"
+},
+
+"#View_Grafica_Progreso":{
+	layout:"vertical",
+	height:"55%",
+	width:"100%"
+},
+"#Lb_Title":{
+	layout:"vertical",
+	height:"10%",
+	top:"2%",
+	bottom:"3%",
+	width:"100%",
+	color: "#888888",
+	font:{fontSize:25}
+},
+
+"#Bt_Graficar":{
+	layout:"vertical",
+	height:"15%",
+	top:"7%",
+	width:"100%",
+	bottom:"5%",
+	color:"white",
+	font:{fontSize:20}
+}
+
+
