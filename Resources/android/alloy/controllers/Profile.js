@@ -332,6 +332,10 @@ function Controller() {
     Update ? $.__views.Bt_Save_Change.addEventListener("click", Update) : __defers["$.__views.Bt_Save_Change!click!Update"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.NavigationBar.setBackgroundColor("#35ABFF");
+    $.NavigationBar.showBack(function() {
+        $.Win_Profile.close();
+    });
     var token;
     var Telefono;
     var Email;

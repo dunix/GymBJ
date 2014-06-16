@@ -1,0 +1,41 @@
+
+".container" : {
+  layout:"vertical",
+  backgroundColor:"black"
+},
+"#Lbl_Informacion_Autor":{
+	font:{fontSize:15},
+  	width:"100%",
+	height: "20%",
+	color: "white"
+},
+"#Lbl_Informacion":{
+	font:{fontSize:30},
+  	width:"100%",
+	height: "20%",
+	color: "white"
+},
+"#Lbl_Informacion_Version":{
+	font:{fontSize:20},
+  	width:"100%",
+	height: "10%",
+	color: "white"
+},
+".Label_Info":{
+	font:{fontSize:15},
+  	width:"100%",
+	height: "10%",
+	color: "white"
+},
+"#Lbl_Informacion_Subtitle":{
+	font:{fontSize:20},
+  	width:"100%",
+	height: "10%",
+	color: "white"
+},
+"#Lbl_Informacion_Lema":{
+	font:{fontSize:20},
+  	width:"100%",
+	height: "20%",
+	color: "white"
+}

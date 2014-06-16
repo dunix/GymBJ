@@ -1,6 +1,10 @@
 <Alloy>
 	<View class="container">
 		<Label id="Lbl_Informacion" >Informacion general: </Label>
-		<Label id="Lbl_Informacion_text"></Label>
+		<Label id="Lbl_Informacion_text">Gimnasio B.J su mejor opción para mantenerse en forma </Label>
+		<Label id="Lbl_Informacion_Subtitle" class="Label_Info">Contáctenos:</Label>
+		<Label  class="Label_Info">Correo Eletronico: gymbj@gmail.com</Label>
+		<Label  class="Label_Info">Teléfono: 22559635</Label>
+		<Label  id="Lbl_Informacion_Lema">EL dolor es temporal ... la gloria es eterna</Label>
 	</View>
 </Alloy>

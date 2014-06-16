@@ -1,3 +1,10 @@
+$.NavigationBar.setBackgroundColor("#35ABFF");
+
+$.NavigationBar.showBack(
+    function(_event) {
+        $.Win_Profile.close();
+    }
+);
 var token;
 var Telefono;
 var Email;

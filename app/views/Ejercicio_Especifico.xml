@@ -9,7 +9,6 @@
 		</View>
 		<View id="view_Nombre" >
 			<Label id="Lbl_NombreEjercicio" text="Nombre"></Label>
-			<Button id="Bt_Compartir" title="Compartir" onClick="publicar"></Button>
 		</View>
 		<Label id="Lbl_Titulo_DescripcionEjer" text="Descripciòn del ejercicio:"></Label>
 		<TextArea id="Lbl_DescripcionEjer" ></TextArea>
@@ -24,6 +23,6 @@
 				<Label id="Lbl_Duracion" ></Label>
 			</View>
 		</View>
-		<Button id="Bt_Video">Ver video del Ejercicio</Button>
+		<Button id="Bt_Video" image="/images/Icon_Youtube.png">Ver video del Ejercicio</Button>
 	</Window>
 </Alloy>

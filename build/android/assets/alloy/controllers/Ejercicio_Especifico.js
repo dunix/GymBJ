@@ -3,11 +3,11 @@ function Controller() {
         id = argument[7];
         $.Lbl_NombreEjercicio.text = argument[0];
         $.Lbl_DescripcionEjer.value = argument[1];
-        $.Lbl_Serie.text = argument[6];
-        $.Lbl_Repetecion.text = argument[3];
-        $.Lbl_Peso.text = argument[4];
-        $.Lbl_Descanso.text = argument[5];
-        $.Lbl_Duracion.text = argument[2];
+        $.Lbl_Serie.text = "Serie:" + argument[6];
+        $.Lbl_Repetecion.text = "Repetición:" + argument[3];
+        $.Lbl_Peso.text = "Peso:" + argument[4] + " kg";
+        $.Lbl_Descanso.text = "Descanso:" + argument[5] + " min";
+        $.Lbl_Duracion.text = "Duración:" + argument[2] + " min";
         video += id;
         nombre = argument[0];
     }
@@ -19,7 +19,7 @@ function Controller() {
             link: video
         };
         facebook.dialog("feed", data, function(e) {
-            e.success && e.result ? alert("Post	" + e.result) : e.error ? alert("error " + e.error) : alert("Post cancelado");
+            e.success && e.result ? alert("Se ha publicado exitosamente") : e.error ? alert("Hubo un error al publicar") : alert("Hubo un error al publicar");
         });
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
@@ -29,7 +29,6 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    var __defers = {};
     $.__views.Window_Ejercicio_Especifico = Ti.UI.createWindow({
         layout: "vertical",
         backgroundColor: "black",
@@ -92,19 +91,6 @@ function Controller() {
         text: "Nombre"
     });
     $.__views.view_Nombre.add($.__views.Lbl_NombreEjercicio);
-    $.__views.Bt_Compartir = Ti.UI.createButton({
-        width: "48%",
-        height: "90%",
-        color: "black",
-        font: {
-            fontSize: 10
-        },
-        left: "2%",
-        id: "Bt_Compartir",
-        title: "Compartir"
-    });
-    $.__views.view_Nombre.add($.__views.Bt_Compartir);
-    publicar ? $.__views.Bt_Compartir.addEventListener("click", publicar) : __defers["$.__views.Bt_Compartir!click!publicar"] = true;
     $.__views.Lbl_Titulo_DescripcionEjer = Ti.UI.createLabel({
         width: "100%",
         height: "8%",
@@ -120,7 +106,7 @@ function Controller() {
         backgroundColor: "black",
         editable: false,
         color: "white",
-        height: "25%",
+        height: "23%",
         width: "98%",
         id: "Lbl_DescripcionEjer"
     });
@@ -128,7 +114,7 @@ function Controller() {
     $.__views.View_DatosEjercicio = Ti.UI.createView({
         layout: "horizontal",
         width: "100%",
-        height: "35%",
+        height: "30%",
         id: "View_DatosEjercicio"
     });
     $.__views.Window_Ejercicio_Especifico.add($.__views.View_DatosEjercicio);
@@ -147,7 +133,7 @@ function Controller() {
         color: "#888888",
         right: "3%",
         font: {
-            fontSize: 20
+            fontSize: 15
         },
         id: "Lbl_Serie"
     });
@@ -159,7 +145,7 @@ function Controller() {
         right: "3%",
         color: "#888888",
         font: {
-            fontSize: 20
+            fontSize: 15
         },
         id: "Lbl_Repetecion"
     });
@@ -171,7 +157,7 @@ function Controller() {
         right: "3%",
         color: "#888888",
         font: {
-            fontSize: 20
+            fontSize: 15
         },
         id: "Lbl_Peso"
     });
@@ -191,7 +177,7 @@ function Controller() {
         top: "3%",
         color: "#888888",
         font: {
-            fontSize: 20
+            fontSize: 15
         },
         id: "Lbl_Descanso"
     });
@@ -203,7 +189,7 @@ function Controller() {
         right: "3%",
         color: "#888888",
         font: {
-            fontSize: 20
+            fontSize: 15
         },
         id: "Lbl_Duracion"
     });
@@ -212,16 +198,28 @@ function Controller() {
         width: "90%",
         right: "5%",
         left: "5%",
-        height: "8%",
+        height: "15%",
         bottom: "2%",
         color: "white",
+        borderRadius: 10,
         backgroundColor: "#424242",
         title: "Ver video del Ejercicio",
-        id: "Bt_Video"
+        id: "Bt_Video",
+        image: "/images/Icon_Youtube.png"
     });
     $.__views.Window_Ejercicio_Especifico.add($.__views.Bt_Video);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.NavigationBar.setBackgroundColor("#35ABFF");
+    $.NavigationBar.showRight({
+        image: "/images/Icon_Facebook.png",
+        callback: function() {
+            publicar();
+        }
+    });
+    $.NavigationBar.showBack(function() {
+        $.Window_Ejercicio_Especifico.close();
+    });
     var id;
     Ti.UI.createWindow();
     var nombre;
@@ -231,7 +229,6 @@ function Controller() {
         youtubePlayer.playVideo(id);
     });
     exports.cargarinfo = cargarinfo;
-    __defers["$.__views.Bt_Compartir!click!publicar"] && $.__views.Bt_Compartir.addEventListener("click", publicar);
     _.extend($, exports);
 }
 

@@ -50,7 +50,7 @@ $.SlideMenu.Nodes.addEventListener("click", handleMenuClick);
 var token;
 function setToken(codigo){
 	token=codigo;
-	alert(token+" dddd");
+	
 	
 }
 exports.setToken=setToken;

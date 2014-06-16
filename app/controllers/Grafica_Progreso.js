@@ -1,3 +1,10 @@
+$.NavigationBar.setBackgroundColor("#35ABFF");
+
+$.NavigationBar.showBack(
+    function(_event) {
+        $.Win_Grafica_Progreso.close();
+    }
+);
 var options = {};
 
 var chartView = Ti.UI.createWebView({
@@ -26,7 +33,7 @@ function llamarServicioGrafica(Id_Usuario){
 	onload: function(e){
 		Rjson=json=JSON.parse(this.responseText);
 		var json=JSON.parse(this.responseText);
-		alert(json.d.Result[0][0]);
+	
 		//var a=new Array();
 		
 		options.oldM = json.d.Result[0];

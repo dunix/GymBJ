@@ -1,7 +1,6 @@
 function Controller() {
     function setToken(codigo) {
         token = codigo;
-        alert(token + " dddd");
     }
     function handleMenuClick(_event) {
         if (0 == _event.row.id) {
@@ -107,21 +106,21 @@ function Controller() {
         id: "Win"
     });
     $.__views.Win && $.addTopLevelView($.__views.Win);
-    $.__views.__alloyId0 = Ti.UI.createView({
+    $.__views.__alloyId5 = Ti.UI.createView({
         layout: "vertical",
-        id: "__alloyId0"
+        id: "__alloyId5"
     });
-    $.__views.Win.add($.__views.__alloyId0);
+    $.__views.Win.add($.__views.__alloyId5);
     $.__views.NavigationBar = Alloy.createWidget("com.mcongrove.navigationBar", "widget", {
         id: "NavigationBar",
-        __parentSymbol: $.__views.__alloyId0
+        __parentSymbol: $.__views.__alloyId5
     });
-    $.__views.NavigationBar.setParent($.__views.__alloyId0);
+    $.__views.NavigationBar.setParent($.__views.__alloyId5);
     $.__views.SlideMenu = Alloy.createWidget("com.mcongrove.slideMenu", "widget", {
         id: "SlideMenu",
-        __parentSymbol: $.__views.__alloyId0
+        __parentSymbol: $.__views.__alloyId5
     });
-    $.__views.SlideMenu.setParent($.__views.__alloyId0);
+    $.__views.SlideMenu.setParent($.__views.__alloyId5);
     $.__views.AppWrapper = Ti.UI.createView({
         id: "AppWrapper",
         layout: "vertical",

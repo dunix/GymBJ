@@ -1,6 +1,6 @@
 <Alloy>
 	<Window id="Win_Main_Menu" class="container">
-		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" />
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" text="Opciones:" />
 		<View class="View_Menu" layout="horizontal">
 			<View layout="vertical" height="50%" width="50%">
 				<ImageView id="Img_Map" image="/images/Icon_Chart.png" onClick="Change_Win_Chart"> </ImageView>
@@ -18,8 +18,8 @@
 				<Label >Perfil </Label>
 			</View>
 			<View layout="vertical"height="50%" width="50%">
-				<ImageView id="Img_Map" image="/images/Icon_Schedule.png" onClick="Change_Win_Schedule"> </ImageView>
-				<Label >Horario </Label>
+				<ImageView id="Img_Map" image="/images/Icon_Info.png" onClick="Change_Win_Acerca"> </ImageView>
+				<Label >Acerca de </Label>
 			</View>
 		</View>
 

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<Label id="Lbl_Informacion" >Informacion de la Aplicación: </Label>
+		<Label id="Lbl_Informacion_Version">Version:1.0</Label>
+		<Label id="Lbl_Informacion_Subtitle" class="Label_Info">Desarrollado por:</Label>
+		<Label id="Lbl_Informacion_Autor" class="Label_Info">Braulio Alpizar \n Leslie Becerra \n José David Chaverri</Label>
+		<Label id="Lbl_Informacion_Subtitle" class="Label_Info">Contáctenos:</Label>
+		<Label  class="Label_Info">Correo Eletronico: bjalpizar@gmail.com</Label>
+		<Label  class="Label_Info">Correo Eletronico: jschaverri@gmail.com</Label>
+		<Label  class="Label_Info">Correo Eletronico: lbecerra@gmail.com</Label>
+	</Window>
+</Alloy>

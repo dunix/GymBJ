@@ -30,8 +30,8 @@ function llamarServicioLogin(usuario, contraseña){
 	onload: function(e){
 		var result=JSON.parse(this.responseText);
 		activityIndicator.hide();
-		if (result.d.Result[0].length!=0){
-			alert(result.d.Result[0][0].toString());
+		if (result.d.Result.length!=0){
+			alert("Se ha conectado satifcatoriamente.");
 			var Main_Window=Alloy.createController('Main');
 			Main_Window.setToken(result.d.Result[0][0]);
 			Main_Window.getView().open();

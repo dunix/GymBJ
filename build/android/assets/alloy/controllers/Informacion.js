@@ -25,14 +25,59 @@ function Controller() {
     $.__views.Informacion.add($.__views.Lbl_Informacion);
     $.__views.Lbl_Informacion_text = Ti.UI.createLabel({
         font: {
-            fontSize: 15
+            fontSize: 20
         },
         width: "100%",
-        height: "80%",
+        height: "20%",
         color: "white",
+        text: "Gimnasio B.J su mejor opción para mantenerse en forma",
         id: "Lbl_Informacion_text"
     });
     $.__views.Informacion.add($.__views.Lbl_Informacion_text);
+    $.__views.Lbl_Informacion_Subtitle = Ti.UI.createLabel({
+        font: {
+            fontSize: 20
+        },
+        width: "100%",
+        height: "10%",
+        color: "white",
+        text: "Contáctenos:",
+        id: "Lbl_Informacion_Subtitle"
+    });
+    $.__views.Informacion.add($.__views.Lbl_Informacion_Subtitle);
+    $.__views.__alloyId3 = Ti.UI.createLabel({
+        font: {
+            fontSize: 15
+        },
+        width: "100%",
+        height: "10%",
+        color: "white",
+        text: "Correo Eletronico: gymbj@gmail.com",
+        id: "__alloyId3"
+    });
+    $.__views.Informacion.add($.__views.__alloyId3);
+    $.__views.__alloyId4 = Ti.UI.createLabel({
+        font: {
+            fontSize: 15
+        },
+        width: "100%",
+        height: "10%",
+        color: "white",
+        text: "Teléfono: 22559635",
+        id: "__alloyId4"
+    });
+    $.__views.Informacion.add($.__views.__alloyId4);
+    $.__views.Lbl_Informacion_Lema = Ti.UI.createLabel({
+        font: {
+            fontSize: 20
+        },
+        width: "100%",
+        height: "20%",
+        color: "white",
+        text: "EL dolor es temporal ... la gloria es eterna",
+        id: "Lbl_Informacion_Lema"
+    });
+    $.__views.Informacion.add($.__views.Lbl_Informacion_Lema);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

@@ -43,8 +43,8 @@
 "#TV_Avisos": {
   	width:"100%",
 	height: "80%",
-	color: "#888888",
-	backgroundColor:"#424242"
+	color: "#white",
+	backgroundColor:"black"
 }
 
 

@@ -1,11 +1,19 @@
+
+$.NavigationBar.setBackgroundColor("#35ABFF");
+
+$.NavigationBar.showBack(
+    function(_event) {
+        $.Window_Avisos.close();
+    }
+);
 tableData=[];
 // Realiza la llamada al endpoint de cargarnoticias	
 function llamarServicioNotificaciones (Id_Usuario) {
+
 xhr = Titanium.Network.createHTTPClient({
 	onload: function(e){
 		
 		var json=JSON.parse(this.responseText);
-		alert(json.d.Result[0][0]);
 		//var a=new Array();
 		cargarNotificacion(json);
 	},
@@ -39,20 +47,19 @@ exports.llamarServicioNotificaciones=llamarServicioNotificaciones;
 function cargarNotificacion(argument){
 	for (var i=0; i < argument.d.Result.length; i++) {
 	  var name= Ti.UI.createTableViewRow({
-		title: argument.d.Result[i][0],
+		title: argument.d.Result[i][0]+"  "+argument.d.Result[i][1],
 		leftImage:"KS_nav_ui.png",
  		backgroundColor:"black",
- 		color:"#35ABFF",
-  		font:{fontSize:25}
+ 		color:"white",
+  		font:{fontSize:20}
   		}); 
   tableData.push(name);
 	};
-  if(argument.d.Result[i][0]>=0){
-  $.Lb_Dia_Pago.text="Su mebresia de vence en "+argument.d.Result[0][1]+" dias";
+  if(argument.d.Result[0][2]>=0){
+  $.Lb_Dia_Pago.text="Su mebresia de vence en "+argument.d.Result[0][2]+" dias";
   }
   else{
  	 	$.Lb_Dia_Pago.text="Su mebresia está vencida";
   }
-  $.Window_Avisos.open();
+  $.TV_Avisos.data=tableData;
 }
-$.TV_Avisos.data=tableData;ta;

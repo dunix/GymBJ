@@ -11,16 +11,16 @@ function Controller() {
         id: "Window_Login"
     });
     $.__views.Window_Login && $.addTopLevelView($.__views.Window_Login);
-    $.__views.__alloyId16 = Ti.UI.createLabel({
+    $.__views.__alloyId21 = Ti.UI.createLabel({
         text: "Bienvenido a la segunda Ventana",
-        id: "__alloyId16"
+        id: "__alloyId21"
     });
-    $.__views.Window_Login.add($.__views.__alloyId16);
-    $.__views.__alloyId17 = Ti.UI.createLabel({
+    $.__views.Window_Login.add($.__views.__alloyId21);
+    $.__views.__alloyId22 = Ti.UI.createLabel({
         text: "Bienvenido a la segunda Ventana222",
-        id: "__alloyId17"
+        id: "__alloyId22"
     });
-    $.__views.Window_Login.add($.__views.__alloyId17);
+    $.__views.Window_Login.add($.__views.__alloyId22);
     $.__views.fbButton = Alloy.Globals.Facebook.createLoginButton({
         id: "fbButton",
         ns: "Alloy.Globals.Facebook"

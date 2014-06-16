@@ -3,6 +3,20 @@
 /*
  Venatana de Ejercicio especifico donde se realiza la carga de datos con el ejercicio especifico seleccionado en su rutina.
  */
+$.NavigationBar.setBackgroundColor("#35ABFF");
+
+$.NavigationBar.showRight({
+    image: "/images/Icon_Facebook.png",
+    callback: function() {
+        publicar();
+    }
+});
+
+$.NavigationBar.showBack(
+    function(_event) {
+        $.Window_Ejercicio_Especifico.close();
+    }
+);
 var id;
 var win = Ti.UI.createWindow();
 var nombre;
@@ -24,11 +38,11 @@ function cargarinfo(argument){
 	id=argument[7];
 	$.Lbl_NombreEjercicio.text=argument[0];
 	$.Lbl_DescripcionEjer.value=argument[1];
-	$.Lbl_Serie.text=argument[6];
-	$.Lbl_Repetecion.text=argument[3];
-	$.Lbl_Peso.text=argument[4];
-	$.Lbl_Descanso.text=argument[5];
-	$.Lbl_Duracion.text=argument[2];
+	$.Lbl_Serie.text="Serie:"+argument[6];
+	$.Lbl_Repetecion.text="Repetición:"+argument[3];
+	$.Lbl_Peso.text="Peso:"+argument[4]+" kg";
+	$.Lbl_Descanso.text="Descanso:"+argument[5]+" min";
+	$.Lbl_Duracion.text="Duración:"+argument[2]+" min";
 	video+=id;
 	nombre=argument[0];
 	
@@ -46,12 +60,12 @@ function publicar(){
 	};
 	facebook.dialog("feed", data, function(e){
 		if(e.success && e.result){
-			alert("Post	" + e.result);
+			alert("Se ha publicado exitosamente");
 		}else{
 			if(e.error){
-				alert("error "+ e.error);
+				alert("Hubo un error al publicar");
 			}else{
-				alert("Post cancelado");
+				alert("Hubo un error al publicar");
 			}
 		}
 	});

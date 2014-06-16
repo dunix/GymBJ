@@ -1,12 +1,19 @@
+$.NavigationBar.setBackgroundColor("#35ABFF");
+
+$.NavigationBar.showBack(
+    function(_event) {
+        $.Window_Rutina.close();
+    }
+);
 var Rjson;
 // Realiza la llamada al endpoint de rutina con su id correspondiente.
 function llamarServicioRutina(Id_Usuario){
 	xhr = Titanium.Network.createHTTPClient({
 	onload: function(e){
-		Rjson=json=JSON.parse(this.responseText);
-		var json=JSON.parse(this.responseText);
-		alert(json.d.Result[0][0]);
-		cargarRutina(json);
+		Rjson=JSON.parse(this.responseText);
+		//var json=JSON.parse(this.responseText);
+		
+		cargarRutina(Rjson);
 	},
 	onerror: function (e){
 		// ocultar spinner
@@ -46,7 +53,7 @@ function cargarRutina(argument){
  		backgroundColor:"#535353",
   		font:{fontSize:25}
   		}); 
-  		alert(name.title);
+  		
   tableData.push(name);
 	};
 	$.TV_Rutina.data=tableData;

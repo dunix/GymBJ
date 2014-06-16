@@ -9,7 +9,6 @@ function Controller() {
             onload: function() {
                 Rjson = json = JSON.parse(this.responseText);
                 var json = JSON.parse(this.responseText);
-                alert(json.d.Result[0][0]);
                 options.oldM = json.d.Result[0];
                 options.newM = json.d.Result[1];
             },
@@ -86,6 +85,10 @@ function Controller() {
     Generar_Grafica ? $.__views.Bt_Graficar.addEventListener("click", Generar_Grafica) : __defers["$.__views.Bt_Graficar!click!Generar_Grafica"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.NavigationBar.setBackgroundColor("#35ABFF");
+    $.NavigationBar.showBack(function() {
+        $.Win_Grafica_Progreso.close();
+    });
     var options = {};
     var chartView = Ti.UI.createWebView({
         height: "100%",

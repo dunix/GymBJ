@@ -10,7 +10,6 @@ $.NavigationBar.showBack(
 
 function setToken(codigo){
 	token=codigo;
-	alert(token+" dddd");
 	
 }
 exports.setToken=setToken;
@@ -39,8 +38,9 @@ function Change_Win_Profile(e) {
 
 function Change_Win_Notification (e) {
 
-	var Notification_Window=Alloy.createController('Notification').getView();
-	Notification_Window.open();
+	var Notification_Window=Alloy.createController('Notification');
+	Notification_Window.llamarServicioNotificaciones(token);
+	Notification_Window.getView().open();
   
 }
 
@@ -51,6 +51,8 @@ function Change_Win_Routine(e) {
   Routine_Window.getView().open();
 }
 
-function Change_Win_Schedule(e) {
- alert("Acerca de:");
+function Change_Win_Acerca(e) {
+ var Acerca_Window=Alloy.createController('Acerca');
+ 
+  Acerca_Window.getView().open();
 }

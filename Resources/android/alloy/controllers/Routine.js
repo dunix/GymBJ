@@ -2,10 +2,8 @@ function Controller() {
     function llamarServicioRutina(Id_Usuario) {
         xhr = Titanium.Network.createHTTPClient({
             onload: function() {
-                Rjson = json = JSON.parse(this.responseText);
-                var json = JSON.parse(this.responseText);
-                alert(json.d.Result[0][0]);
-                cargarRutina(json);
+                Rjson = JSON.parse(this.responseText);
+                cargarRutina(Rjson);
             },
             onerror: function() {
                 activityIndicator.hide();
@@ -35,7 +33,6 @@ function Controller() {
                     fontSize: 25
                 }
             });
-            alert(name.title);
             tableData.push(name);
         }
         $.TV_Rutina.data = tableData;
@@ -50,24 +47,24 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    $.__views.Routine = Ti.UI.createWindow({
+    $.__views.Window_Rutina = Ti.UI.createWindow({
         backgroundColor: "#000000",
         layout: "vertical",
-        id: "Routine"
+        id: "Window_Rutina"
     });
-    $.__views.Routine && $.addTopLevelView($.__views.Routine);
+    $.__views.Window_Rutina && $.addTopLevelView($.__views.Window_Rutina);
     $.__views.NavigationBar = Alloy.createWidget("com.mcongrove.navigationBar", "widget", {
         id: "NavigationBar",
-        __parentSymbol: $.__views.Routine
+        __parentSymbol: $.__views.Window_Rutina
     });
-    $.__views.NavigationBar.setParent($.__views.Routine);
+    $.__views.NavigationBar.setParent($.__views.Window_Rutina);
     $.__views.View_titulo = Ti.UI.createView({
         layout: "vertical",
         width: "100%",
         height: "15%",
         id: "View_titulo"
     });
-    $.__views.Routine.add($.__views.View_titulo);
+    $.__views.Window_Rutina.add($.__views.View_titulo);
     $.__views.View_titulo_sec1 = Ti.UI.createView({
         layout: "horizontal",
         width: "100%",
@@ -103,14 +100,18 @@ function Controller() {
         text: "Programa de ejercicios:",
         id: "Lbl_Rutina"
     });
-    $.__views.Routine.add($.__views.Lbl_Rutina);
+    $.__views.Window_Rutina.add($.__views.Lbl_Rutina);
     $.__views.TV_Rutina = Ti.UI.createTableView({
         backgroundColor: "#black",
         id: "TV_Rutina"
     });
-    $.__views.Routine.add($.__views.TV_Rutina);
+    $.__views.Window_Rutina.add($.__views.TV_Rutina);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.NavigationBar.setBackgroundColor("#35ABFF");
+    $.NavigationBar.showBack(function() {
+        $.Window_Rutina.close();
+    });
     var Rjson;
     exports.llamarServicioRutina = llamarServicioRutina;
     $.TV_Rutina.addEventListener("click", function(e) {

@@ -3,7 +3,6 @@ function Controller() {
         xhr = Titanium.Network.createHTTPClient({
             onload: function() {
                 var json = JSON.parse(this.responseText);
-                alert(json.d.Result[0][0]);
                 cargarNotificacion(json);
             },
             onerror: function() {
@@ -25,18 +24,18 @@ function Controller() {
     function cargarNotificacion(argument) {
         for (var i = 0; argument.d.Result.length > i; i++) {
             var name = Ti.UI.createTableViewRow({
-                title: argument.d.Result[i][0],
+                title: argument.d.Result[i][0] + "  " + argument.d.Result[i][1],
                 leftImage: "KS_nav_ui.png",
                 backgroundColor: "black",
-                color: "#35ABFF",
+                color: "white",
                 font: {
-                    fontSize: 25
+                    fontSize: 20
                 }
             });
             tableData.push(name);
         }
-        $.Lb_Dia_Pago.text = argument.d.Result[i][0] >= 0 ? "Su mebresia de vence en " + argument.d.Result[0][1] + " dias" : "Su mebresia está vencida";
-        $.Window_Avisos.open();
+        $.Lb_Dia_Pago.text = argument.d.Result[0][2] >= 0 ? "Su mebresia de vence en " + argument.d.Result[0][2] + " dias" : "Su mebresia está vencida";
+        $.TV_Avisos.data = tableData;
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "Notification";
@@ -114,17 +113,19 @@ function Controller() {
     $.__views.TV_Avisos = Ti.UI.createTableView({
         width: "100%",
         height: "80%",
-        color: "#888888",
-        backgroundColor: "#424242",
+        color: "#white",
+        backgroundColor: "black",
         id: "TV_Avisos"
     });
     $.__views.View_Avisos.add($.__views.TV_Avisos);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.NavigationBar.setBackgroundColor("#35ABFF");
+    $.NavigationBar.showBack(function() {
+        $.Window_Avisos.close();
+    });
     tableData = [];
     exports.llamarServicioNotificaciones = llamarServicioNotificaciones;
-    $.TV_Avisos.data = tableData;
-    ta;
     _.extend($, exports);
 }
 

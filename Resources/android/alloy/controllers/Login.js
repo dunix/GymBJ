@@ -13,8 +13,8 @@ function Controller() {
             onload: function() {
                 var result = JSON.parse(this.responseText);
                 activityIndicator.hide();
-                if (0 != result.d.Result[0].length) {
-                    alert(result.d.Result[0][0].toString());
+                if (0 != result.d.Result.length) {
+                    alert("Se ha conectado satifcatoriamente.");
                     var Main_Window = Alloy.createController("Main");
                     Main_Window.setToken(result.d.Result[0][0]);
                     Main_Window.getView().open();
